@@ -9,22 +9,23 @@
 </head>
 <body>
   <header class="barra-navegacion">
-    <div class="logo">
-      <a href="index.html">
-        <img src="recursos/logo.png" alt="LanLink Logo" width="28">
-      </a>
-      <a href="index.html">LanLink</a>
-    </div>
-    <div class="usuario">
-      <a href="perfil-alan.html">Alan Flores</a>
-      <img src="recursos/pa.png" alt="Avatar de Alan" class="avatar">
+    <div class="navegacion-contenido">
+      <div class="logo">
+        <a href="index.html">
+          <img src="recursos/logo.png" alt="LanLink Logo" width="28">
+        </a>
+        <a href="index.html">LanLink</a>
+      </div>
+      <div class="usuario">
+        <a href="perfil-alan.html">Alan Flores</a>
+        <img src="recursos/pa.png" alt="Avatar de Alan" class="avatar">
+      </div>
     </div>
   </header>
 
   <main class="contenedor">
     <section class="area-publicaciones">
       <h2>Publicaciones recientes</h2>
-
       <article class="publicacion">
         <div class="encabezado-publicacion">
           <img src="recursos/pa.png" alt="Foto de Alan" class="foto-perfil">
@@ -38,7 +39,6 @@
           <button class="boton-accion">🔗 Compartir</button>
         </div>
       </article>
-
       <article class="publicacion">
         <div class="encabezado-publicacion">
           <img src="recursos/pafe.png" alt="Foto de Alfredo" class="foto-perfil">
@@ -52,7 +52,6 @@
           <button class="boton-accion">🔗 Compartir</button>
         </div>
       </article>
-
       <article class="publicacion">
         <div class="encabezado-publicacion">
           <img src="recursos/pale.png" alt="Foto de Alessandro" class="foto-perfil">
@@ -66,7 +65,6 @@
           <button class="boton-accion">🔗 Compartir</button>
         </div>
       </article>
-
       <article class="publicacion">
         <div class="encabezado-publicacion">
           <img src="recursos/pda.png" alt="Foto de Danna" class="foto-perfil">
@@ -80,90 +78,32 @@
           <button class="boton-accion">🔗 Compartir</button>
         </div>
       </article>
-
-      <article class="publicacion">
-        <div class="encabezado-publicacion">
-          <img src="recursos/pa.png" alt="Foto de Alan" class="foto-perfil">
-          <a href="perfil-alan.html">Alan Flores</a>
-        </div>
-        <img src="recursos/pub5.jpg" alt="Publicación de Alan" class="imagen-publicacion">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
-        <div class="acciones">
-          <button class="boton-accion">👍 Me gusta</button>
-          <button class="boton-accion">💬 Comentar</button>
-          <button class="boton-accion">🔗 Compartir</button>
-        </div>
-      </article>
-
-      <article class="publicacion">
-        <div class="encabezado-publicacion">
-          <img src="recursos/pafe.png" alt="Foto de Alfredo" class="foto-perfil">
-          <a href="perfil-alfredo.html">Alfredo Cruz</a>
-        </div>
-        <img src="recursos/pub6.jpg" alt="Publicación de Alfredo" class="imagen-publicacion">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
-        <div class="acciones">
-          <button class="boton-accion">👍 Me gusta</button>
-          <button class="boton-accion">💬 Comentar</button>
-          <button class="boton-accion">🔗 Compartir</button>
-        </div>
-      </article>
-
-      <article class="publicacion">
-        <div class="encabezado-publicacion">
-          <img src="recursos/pale.png" alt="Foto de Alessandro" class="foto-perfil">
-          <a href="perfil-alessandro.html">Alessandro Novelo</a>
-        </div>
-        <img src="recursos/pub7.jpg" alt="Publicación de Alessandro" class="imagen-publicacion">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
-        <div class="acciones">
-          <button class="boton-accion">👍 Me gusta</button>
-          <button class="boton-accion">💬 Comentar</button>
-          <button class="boton-accion">🔗 Compartir</button>
-        </div>
-      </article>
-
-      <article class="publicacion">
-        <div class="encabezado-publicacion">
-          <img src="recursos/pda.png" alt="Foto de Danna" class="foto-perfil">
-          <a href="perfil-danna.html">Danna Solis</a>
-        </div>
-        <img src="recursos/pub8.jpg" alt="Publicación de Danna" class="imagen-publicacion">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
-        <div class="acciones">
-          <button class="boton-accion">👍 Me gusta</button>
-          <button class="boton-accion">💬 Comentar</button>
-          <button class="boton-accion">🔗 Compartir</button>
-        </div>
-      </article>
     </section>
 
-<!-- Botón flotante y checkbox para controlar el chat -->
-<input type="checkbox" id="toggle-chat" class="toggle-chat">
-<label for="toggle-chat" class="chat-flotante">💬</label>
-
-<!-- Área de chat -->
-<aside class="area-chat">
-  <h3>Chats</h3>
-  <div class="contacto">
-    <a href="perfil-alessandro.html">
-      <img src="recursos/pale.png" alt="Alessandro">
-      <span>Alessandro Novelo</span>
-    </a>
-  </div>
-  <div class="contacto">
-    <a href="perfil-alfredo.html">
-      <img src="recursos/pafe.png" alt="Alfredo">
-      <span>Alfredo Cruz</span>
-    </a>  
-  </div>
-  <div class="contacto">
-    <a href="perfil-danna.html">
-      <img src="recursos/pda.png" alt="Danna">
-      <span>Danna Solis</span>
-    </a>
-  </div>
-</aside>
+    <input type="checkbox" id="toggle-chat-input" class="toggle-chat">
+    <label for="toggle-chat-input" class="chat-flotante">💬</label>
+    
+    <aside class="area-chat">
+      <h3>Chats</h3>
+      <div class="contacto">
+        <a href="perfil-alessandro.html">
+          <img src="recursos/pale.png" alt="Alessandro">
+          <span>Alessandro Novelo</span>
+        </a>
+      </div>
+      <div class="contacto">
+        <a href="perfil-alfredo.html">
+          <img src="recursos/pafe.png" alt="Alfredo">
+          <span>Alfredo Cruz</span>
+        </a>  
+      </div>
+      <div class="contacto">
+        <a href="perfil-danna.html">
+          <img src="recursos/pda.png" alt="Danna">
+          <span>Danna Solis</span>
+        </a>
+      </div>
+    </aside>
 
   </main>
 
